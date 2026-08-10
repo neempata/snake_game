@@ -26,5 +26,5 @@ Thumbs.db
 # Local runtime files
 *.log
 *.tmp
-*.json
+save_*.json
 highscore*.txt
