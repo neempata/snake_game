@@ -165,7 +165,7 @@ def game_loop():
                 else:
                     snake_x = next_x
                     snake_y = next_y
-                    snake_list.append
+                    snake_list.append(new_head)
 
                     if ate_food:
                         score += 1
@@ -218,7 +218,6 @@ def game_loop():
         pygame.display.update()
         clock.tick(SNAKE_SPEED)
 
-
 def main():
     """Run new rounds until the player quits."""
     play_again = True
@@ -227,7 +226,6 @@ def main():
         play_again = game_loop()
 
     pygame.quit()
-
 
 if __name__ == "__main__":
     main()
