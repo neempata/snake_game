@@ -164,7 +164,7 @@ def game_loop():
                     final_time = elapsed_time
                 else:
                     snake_x = next_x
-                    snake_y = 
+                    snake_y = next_y
                     snake_list.append(new_head)
 
                     if ate_food:
