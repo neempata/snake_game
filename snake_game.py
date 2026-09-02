@@ -165,7 +165,7 @@ def game_loop():
                 else:
                     snake_x = next_x
                     snake_y = next_y
-                    snake_list.append(new_head)
+                    snake_list.append
 
                     if ate_food:
                         score += 1
