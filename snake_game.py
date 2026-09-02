@@ -14,7 +14,7 @@ PINK = (255, 192, 203)
 
 # Display settings
 DISPLAY_WIDTH = 600
-DISPLAY_HEIGHT = 400
+DISPLAY_HEIGHT = 500
 
 # Snake settings
 SNAKE_BLOCK = 10
